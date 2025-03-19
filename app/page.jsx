@@ -32,13 +32,26 @@ export default function Page() {
         <main className="flex flex-col gap-8 sm:gap-16">
             <section className="flex flex-col items-start gap-3 sm:gap-4">
                 <ContextAlert />
-                <h1 className="mb-0">Netlify Platform Starter - Next.js</h1>
-                <p className="text-lg">Get started with Next.js and Netlify in seconds.</p>
+                <h1 className="mb-0">Telegram 中文版纸飞机介绍</h1>
+                <p>
+            Telegram 是一款安全、快速的即时通讯软件，因其强大的功能和良好的用户体验而受到广泛欢迎。Telegram 中文版纸飞机应用专为中文用户设计，提供流畅的使用体验和本地化的服务。
+        </p>
+        <h2>主要特点</h2>
+        <ul>
+            <li>安全性：Telegram 提供端到端加密，确保用户隐私。</li>
+            <li>快速消息传递：无论是文本、图片还是视频，都能迅速发送。</li>
+            <li>多平台支持：可在手机、平板和电脑等多个设备上使用。</li>
+            <li>丰富的功能：支持群组聊天、频道订阅、文件分享等多种功能。</li>
+        </ul>
+        <h2>下载链接</h2>
+        <p>
+            您可以通过以下链接下载 Telegram 中文版纸飞机：
+        </p>
                 <Link
-                    href="https://docs.netlify.com/frameworks/next-js/overview/"
+                    href="https://www.zifeiji.com"
                     className="btn btn-lg btn-primary sm:btn-wide"
                 >
-                    Read the Docs
+                   纸飞机下载 
                 </Link>
             </section>
             {!!ctx && (
